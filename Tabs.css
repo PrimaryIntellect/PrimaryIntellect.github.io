@@ -1,0 +1,104 @@
+.Nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #000;
+}
+
+.Nav li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #4766FF;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-family: arial;
+}
+
+li a:hover:not(.active) {
+    background-color: #333;
+}
+
+.active {
+    background-color: red;
+    color: black;
+}
+
+.title {
+    font-size: 50px;
+    color: #EDEB3D;
+    text-align: center;
+    font-weight: 500;
+    font-family: monospace;
+    display: inline;
+    position: relative;
+    letter-spacing: -2.5px;
+}
+
+.title:after {
+    content: "Primary Intellect";
+    position: absolute;
+    left: 29.15%;
+    top: 2px;
+    color:  #EDEB3D;
+    font-weight: 450;
+}
+
+body {
+    overflow: auto;
+    margin: 0;
+    height: 100%;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 45pt;
+    font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25pt;
+    text-decoration: overline underline;
+    font-family: arial;
+}
+
+.main {
+    font-size: 40px;
+border-width: 0px;
+}
+
+img {
+
+    border-radius: 5px;
+    border: ;
+}
+
+.content{
+    padding: 0% 30%;
+text-align: center;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+ .content br{
+    line-height: 0%;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
